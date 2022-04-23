@@ -5,6 +5,7 @@ body{
     background-color: hsl(218, 28%, 13%); 
     width: 1440px;
     /* font-size: 14px; */
+    color:hsl(0, 0%, 100%);
 }
 nav {
     display: flex;
@@ -23,11 +24,11 @@ nav .main-menu a{
     text-decoration: none;
     color: aliceblue;
 }
-.main-pic img{
+/* .main-pic img{
     margin-top: 20px;
     width: 800px;
     background-color: black;
-}
+} */
 section{
     display: flex;
     display: flex;
@@ -41,9 +42,77 @@ section .main-part{
 }
 
 section .main-part button{
-    
+    border: 1px solid #4Fc5D4;
     background-color: #4Fc5D4;
     width: 200px;
     height: 50px;
     border-radius: 30px;
+}
+
+.features{
+    width: 750px;
+}
+.features .fav1{
+    display: flex;
+}
+.features .fav1 .fav11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features .fav1 .fav12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features .fav2{
+    display: flex;
+}
+.features .fav2 .fav21{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features .fav2 .fav22{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 375px) {
+    .features .fav1{
+        display: flex;
+        flex-direction: column;
+    }
+    .features .fav2{
+        display: flex;
+        flex-direction: column;
+    }
 }
