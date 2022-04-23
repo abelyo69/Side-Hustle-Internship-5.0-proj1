@@ -23,3 +23,27 @@ nav .main-menu a{
     text-decoration: none;
     color: aliceblue;
 }
+.main-pic img{
+    margin-top: 20px;
+    width: 800px;
+    background-color: black;
+}
+section{
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+section .main-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .main-part button{
+    
+    background-color: #4Fc5D4;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+}
