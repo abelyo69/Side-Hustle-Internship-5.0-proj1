@@ -29,10 +29,18 @@ nav .main-menu a{
     width: 800px;
     background-color: black;
 } */
+.main-part{
+    margin-top: 40px;
+    width: 500px;
+    align-items: center;
+}
 section{
     display: flex;
-    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    
+    
 }
 section .main-part{
     display: flex;
@@ -81,6 +89,16 @@ section .main-part button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.info{
+    display: flex;
+}
+.info .banner {
+    margin: 30px 60px;
+}
+
+.info .ban-info {
+    margin: 30px 60px;
 }
 
 
