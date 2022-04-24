@@ -7,6 +7,10 @@ body{
     /* font-size: 14px; */
     color:hsl(0, 0%, 100%);
 }
+h1, h2, h3, a{
+    font-family: 'Raleway', sans-serif;
+
+}
 nav {
     display: flex;
     padding: 25px 0 0  25px;
@@ -23,16 +27,31 @@ nav .main-menu{
 nav .main-menu a{
     text-decoration: none;
     color: aliceblue;
+    padding: 0 30px;
+    color: #B3B6BA;
+}
+nav .main-menu a:hover{
+    font-weight: bold;
+    text-decoration: underline;
 }
 /* .main-pic img{
     margin-top: 20px;
     width: 800px;
     background-color: black;
 } */
+/* section .main-pic .responsive{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+} */
 .main-part{
     margin-top: 40px;
     width: 500px;
     align-items: center;
+}
+section .main-pic img{
+    padding-top: 60px;
+    margin-top: 60px;
 }
 section{
     display: flex;
@@ -119,6 +138,35 @@ h1, h2, h3, p{
 }
 .ban-info p{
     text-align: left;
+}
+.link {
+    color: aqua;
+    display: flex;
+    /* flex-direction: ; */
+}
+.info .ban-info .link a{
+    text-align: left;
+    width: 200px;
+    color: #52B2AE;
+    border-bottom: 1px solid ;
+    text-decoration: none;
+    
+}
+.info .ban-info .link img{
+    padding-left: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -20px 100px;
+    gap: 40px;
+    position: relative;
+}
+.box .box-testimonial{
+    background: hsl(219, 30%, 18%);
+    box-shadow: 0 0 15px hsla(219, 30%, 18%, 1) ;
+    border-radius: 10px;
 }
 
 
