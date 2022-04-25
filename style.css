@@ -3,9 +3,11 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: hsl(218, 28%, 13%); 
-    width: 1440px;
+    /* width: 1440px; */
     /* font-size: 14px; */
     color:hsl(0, 0%, 100%);
+    width: 100%;
+    height: auto;
 }
 h1, h2, h3, a{
     font-family: 'Raleway', sans-serif;
@@ -44,6 +46,20 @@ nav .main-menu a:hover{
     max-width: 800px;
     height: auto;
 } */
+section {
+    background: url(/image/bg-curvy-desktop.svg);
+    
+    background-position: center bottom 0, center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+}
 .main-part{
     margin-top: 40px;
     width: 500px;
@@ -168,8 +184,121 @@ h1, h2, h3, p{
     box-shadow: 0 0 15px hsla(219, 30%, 18%, 1) ;
     border-radius: 10px;
 }
+/* sign up */
+
+.last{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin: 0 auto;
+    margin-top: 13%;
+    background-color: var(--first-color);
+    padding: 40px;
+    box-shadow: 0 0 15px var(--first-color);
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+}
+.last h2{
+    font-family: 'Raleway', sans-serif;;
+    margin-top: 17px;
+}
 
 
+.last p {
+    font-size: 17.6px;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+input {
+    width: 70%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 13px 30px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(33, 31, 31);
+    outline: none;
+    
+}
+button{
+    background: #181F2A;
+    border-radius: 50px;
+    outline: none;
+    /* text-align: center; */
+    border: none;
+    color: #181F2A;
+    font-size: 14.4px;
+}
+
+
+
+/* footer */
+footer{
+    display: flex;
+    gap: 40px;
+    padding: 40px 30px;
+    width: 100%;
+    height: auto;
+}
+footer .phone{
+    display: flex;
+    flex-direction: column;
+}
+footer .phone a{
+    text-decoration: none;
+    color: #B5B8BD;
+    padding: 10px 10px;
+}
+footer .phone i{
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 21px;
+}
+.location{
+    width: 300px;
+    
+}
+.location .logo{
+    padding-bottom: 40px;
+}
+.location p{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.social i{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 6px;
+    margin-right: 10px;
+}
+.social i:hover {
+    border: 1px solid cyan;
+    color: cyan;
+}
+.contact ul >li, .about ul > li{
+    list-style-type: none;
+}
+.about ul > li a,.contact ul >li a{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 100px;
+}
+/* ul li[
+    list-style-type: none;
+] */
+/* .location, .about .contact {
+    line-height: 4.9px;
+} */
 
 
 
