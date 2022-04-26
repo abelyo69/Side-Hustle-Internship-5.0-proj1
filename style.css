@@ -184,6 +184,7 @@ h1, h2, h3, p{
     justify-content: center;
     align-items: center;
     margin: -20px 80px;
+    margin-top: 70px;
     gap: 40px;
     position: relative;
     padding: 10px 2px;
@@ -368,6 +369,7 @@ footer .phone i{
     .box{
         display: flex;
         flex-direction: column;
+        margin-top: 30px;
     }
     .box .box-testimonial p{
         text-align: left;
