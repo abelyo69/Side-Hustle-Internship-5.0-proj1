@@ -15,16 +15,22 @@ h1, h2, h3, a{
 }
 nav {
     display: flex;
-    padding: 25px 0 0  25px;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 25px 0 0  25px; */
+    padding: 4rem 7%;
 }
 nav .logo{
-    width: 30px;
+    width: 10px;
     height: 10px;
 }
-nav .main-menu{
+nav .main-menu{ 
+    display: flex;
     font-family: 'Raleway', sans-serif;
     align-items: flex-end;
-    padding-left: 870px;
+    padding-left: 770px;
+    width: 100%;
+    height: auto;
 }
 nav .main-menu a{
     text-decoration: none;
@@ -139,8 +145,10 @@ section .main-part button{
     
 }
 .info .banner img{
-    
-    width: 450px;
+    width: 100%;
+    min-width: 30%;
+    height: auto;
+
 }
 
 .info .ban-info {
@@ -179,12 +187,17 @@ h1, h2, h3, p{
     gap: 40px;
     position: relative;
     padding: 10px 2px;
+    width: 80%;
+    height: auto;
+
 }
 .box .mag {
-    position: absolute;
-    width: 6rem;
+    position:inherit;
+    width: 50px;
     transform: translate(-1rem, -4rem);
     z-index: -1;
+    margin-right: -100px;
+    margin-top: -145px;
 }
 .box .box-testimonial{
     background: hsl(219, 30%, 18%);
@@ -355,5 +368,23 @@ footer .phone i{
     .box{
         display: flex;
         flex-direction: column;
+    }
+    .box .box-testimonial p{
+        text-align: left;
+    }
+    .responsive{
+        width: 50%;
+        height: auto;
+    }
+    .main-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    height: auto;
+
+    }
+    footer{
+        flex-wrap: wrap;
     }
 }
